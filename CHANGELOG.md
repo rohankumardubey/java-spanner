@@ -1,5 +1,17 @@
 # Changelog
 
+## [6.36.1](https://github.com/googleapis/java-spanner/compare/v6.36.0...v6.36.1) (2023-02-09)
+
+
+### Bug Fixes
+
+* Prevent illegal negative timeout values into thread sleep() method while retrying exceptions in unit tests. ([#2268](https://github.com/googleapis/java-spanner/issues/2268)) ([ce66098](https://github.com/googleapis/java-spanner/commit/ce66098c7139ea13d5ea91cf6fbceb5c732b392d))
+
+
+### Dependencies
+
+* Update dependency com.google.api.grpc:proto-google-cloud-spanner-executor-v1 to v1.2.0 ([#2256](https://github.com/googleapis/java-spanner/issues/2256)) ([f0ca86a](https://github.com/googleapis/java-spanner/commit/f0ca86a0858bde84cc38f1ad8fae5f3c4f4f3395))
+
 ## [6.36.0](https://github.com/googleapis/java-spanner/compare/v6.35.2...v6.36.0) (2023-02-08)
 
 
